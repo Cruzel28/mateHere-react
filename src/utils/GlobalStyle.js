@@ -8,7 +8,7 @@ ${reset}
     height: 100vh;
     width: 100vw;
     font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Prompt", sans-serif;
     overflow-x: hidden;
    
     scroll-behavior:smooth;
@@ -21,9 +21,11 @@ ${reset}
     padding: 0;
   }
     
-    &:Link {
-      text-decoration: none;
-      color: #fff;
+  a {
+    text-decoration : none;
+    color: inherit;
+
+
   }
 `
 export default GlobalStyle;
